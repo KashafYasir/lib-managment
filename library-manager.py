@@ -5,8 +5,8 @@ import os
 from datetime import datetime
 import time
 import random
-#import plotly.express as px
-#import plotly.graph_objects as go
+import plotly.express as px
+import plotly.graph_objects as go
 from streamlit_lottie import st_lottie
 import requests
 
@@ -442,4 +442,4 @@ elif st.session_state.current_view == "stats":
 
 # Footer
 st.markdown("---")
-st.markdown("© 2025 Mehak Alamgir Personal Library Manager | Created with Love and Streamlit", unsafe_allow_html=True)
+st.markdown("© 2025 Kashaf YAsir Personal Library Manager | Created with  Streamlit", unsafe_allow_html=True)
